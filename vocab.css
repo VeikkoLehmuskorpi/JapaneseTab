@@ -13,7 +13,7 @@
 body {
 	margin: 0px;
 	border: 0px;
-	font-family: 'Roboto', sans-serif;
+	font-family: "Noto Sans", "Noto Sans JP", "Noto Sans SC", sans-serif;
 	align-items: center;
 	min-width: 750px;
 	margin-left: auto;
@@ -27,7 +27,6 @@ a {
 /* OPTIONS ----------------------------- */
 
 #goToOptions {
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
 	position: fixed;
 	top: 5vh;
 	left: 5vh;
@@ -119,9 +118,7 @@ a {
 
 .romaji {
 	margin-top: 10vh;
-	font-weight: 100;
-	font-size: 60px;
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
+	font-weight: 300;
 }
 
 .hiraganaclass {
@@ -133,7 +130,7 @@ a {
 .hiragana {
 	text-align: center;
 	font-size: 60px;
-	font-weight: 900;
+	font-weight: 400;
 }
 
 .audio {
@@ -151,7 +148,6 @@ a {
 }
 
 .kanji {
-	font-weight: 100;
 	font-size: 20px;	
 	margin-right: 10px;
 }
@@ -162,7 +158,6 @@ a {
 
 .katakana {
 	padding-top: 2vh;
-	font-weight: 100;
 	font-size: 20px;
 	position:relative;
 	text-align: center;	
@@ -170,11 +165,8 @@ a {
 }
 
 .pos {
-	font-weight: 100;
-	font-size: 15px;
 	position:relative;
 	text-align: center;	
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
 	
 }
 
@@ -193,7 +185,6 @@ a {
 	width: 90vw;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
 }
 
 
