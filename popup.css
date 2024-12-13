@@ -1,5 +1,6 @@
 body {
 	width: 400px;
+        font-family: "Noto Sans", "Noto Sans JP", "Noto Sans SC", sans-serif;
 }
 
 p {
@@ -22,12 +23,10 @@ p {
 }
 
 .format {
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
 	z-index: 1;
 }
 .romaji {
 	margin-top: 1vh;
-	font-weight: 100;
 	font-size: 60px;
 	z-index: 1;
 }
@@ -40,7 +39,7 @@ p {
 .hiragana {
 	text-align: center;
 	font-size: 50px;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .kaclass {
@@ -50,7 +49,6 @@ p {
 }
 
 .kanji {
-	font-weight: 100;
 	font-size: 20px;	
 	margin-right: 10px;
 }
@@ -69,11 +67,9 @@ p {
 }
 
 .pos {
-	font-weight: 100;
 	font-size: 15px;
 	position:relative;
 	text-align: center;	
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
 	
 }
 
@@ -93,7 +89,6 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 1;
-	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace; 
 }
 
 
