@@ -61,7 +61,7 @@ function setCookies() {
 		Cookies.set("color", Cookies.get("color"));
 	}
 	else {
-		Cookies.set("color", 3);
+		Cookies.set("color", 2);
 	}
 	// apply the colour
 	palette[Cookies.get("color")].click();
@@ -71,7 +71,7 @@ function setCookies() {
 		Cookies.set("romaji", Cookies.get("romaji"));
 	}
 	else {
-		Cookies.set("romaji", "on");
+		Cookies.set("romaji", "off");
 	}
 
 	// Store "hiragana first" preference
@@ -79,7 +79,7 @@ function setCookies() {
 		Cookies.set("topText", Cookies.get("topText"));
 	}
 	else {
-		Cookies.set("topText", "hiragana first");
+		Cookies.set("topText", "kanji first");
 	}
 
 	// Store top visited site visibility preference
@@ -87,7 +87,7 @@ function setCookies() {
 		Cookies.set("linksVisibility", Cookies.get("linksVisibility"));
 	}
 	else {
-		Cookies.set("linksVisibility", "visible");
+		Cookies.set("linksVisibility", "hidden");
 	}
 }
 
